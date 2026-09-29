@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HTMX Task Board</title>
+    <script src="https://unpkg.com/htmx.org@2.0.4"></script>
+    <style>
+      body { max-width: 640px; margin: 2rem auto; font-family: sans-serif; }
+      form { display: flex; gap: 0.5rem; margin-bottom: 1.5rem; }
+      input { flex: 1; padding: 0.6rem; }
+      button { cursor: pointer; padding: 0.6rem 0.8rem; }
+      ul { padding: 0; list-style: none; }
+      li { display: flex; justify-content: space-between; padding: 0.8rem 0; border-bottom: 1px solid #ddd; }
+      .completed span { text-decoration: line-through; color: #777; }
+    </style>
+  </head>
+  <body>
+    <h1>Minhas tarefas</h1>
+
+    <form>
+      <input name="title" placeholder="Nova tarefa" required>
+      <button type="submit">Adicionar</button>
+    </form>
+
+    <ul id="task-list">
+      <!-- Use HTMX para carregar as tarefas aqui. -->
+    </ul>
+  </body>
+</html>

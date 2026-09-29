@@ -72,6 +72,25 @@
           "type": "python"
         }
       ]
+    },
+    {
+      "id": "consuming-apis-with-htmx",
+      "title": "Consuming APIs with HTMX",
+      "description": "Interfaces web dinâmicas com HTMX conectadas a um servidor FastAPI.",
+      "path": "assignments/consuming-apis-with-htmx",
+      "dueDate": "2026-10-06",
+      "attachments": [
+        {
+          "name": "Starter Server",
+          "file": "starter-code.py",
+          "type": "python"
+        },
+        {
+          "name": "Starter Page",
+          "file": "index.html",
+          "type": "html"
+        }
+      ]
     }
   ]
 }
